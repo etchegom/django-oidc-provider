@@ -168,6 +168,13 @@ class DefaultSettings(object):
             'error': 'oidc_provider/error.html'
         }
 
+    @property
+    def OIDC_CORS_MANAGEMENT_ENABLE(self):
+        """
+        OPTIONAL. If enabled, the Server will modify CORS headers.
+        """
+        return True
+
 
 default_settings = DefaultSettings()
 

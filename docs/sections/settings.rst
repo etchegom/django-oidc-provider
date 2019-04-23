@@ -234,3 +234,8 @@ Default is::
 See the :ref:`templates` section.
 
 The templates that are not specified here will use the default ones.
+
+OIDC_CORS_MANAGEMENT_ENABLE
+===========================
+OPTIONAL. bool. Enables CORS headers to be modified.
+Default is True.
